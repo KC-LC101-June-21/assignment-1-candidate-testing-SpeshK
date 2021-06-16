@@ -44,7 +44,6 @@ describe("Candidate Testing solution", function() {
     expect(solution.questions).toContain("Given the array [8, 'Orbit', 'Trajectory', 45], what entry is at index 2? ");
     expect(solution.questions).toContain("What is the minimum crew size for the ISS? ");
 	});
-//KV
 
   // correctAnswers tests //
 	it("correctAnswers contains 5 answers", function() {
