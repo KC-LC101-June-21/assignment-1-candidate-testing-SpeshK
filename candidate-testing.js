@@ -55,9 +55,9 @@ function gradeQuiz(candidateAnswers) {
   }
   
   if (grade >= 79) {
-  console.log(`Congratulations! You were required to achieve at or higher than 80% on this test to pass and your score was ${grade}%! You passed!`);
+  console.log(`Congratulations! You were required to achieve at or higher than 80% on this test to pass and you scored ${grade}%! You passed!`);
 } else {
-  console.log(`Unfortunately, you were required to score at least 80% to pass this test, and your score was  ${grade}%. You will need to retake the test if you wish to pass.`);
+  console.log(`Unfortunately, you were required to score at least 80% to pass this test, and you scored  ${grade}%. You will need to retake the test if you wish to pass.`);
 };
 
 
